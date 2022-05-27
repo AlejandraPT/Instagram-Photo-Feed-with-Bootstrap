@@ -1,94 +1,109 @@
-#titulo{
-    text-align: center;
-    background-color: white;
+.body {
+    background-color: #fafafa;
 }
 
-#relleno{
-    margin: 0%;
-    padding: 0%;
-    border: #c5c5c7 ;
-    background: #c5c5c7;
+.nav-feed {
+    border-bottom: none; 
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 15px;
 }
 
-#post1{
+.nav-link-1 {
+    color: #495057;
+    background-color: #fafafa;
+    border-color: gray #fff #fff;
+    border-top-right-radius: .0rem;
+    border-top-left-radius: .0rem;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.nav-link-2 {
+    color: #a2a8af;
+    background-color: #fafafa;
+    border-color: #fff #fff #fff;
+    border-top-right-radius: .0rem ;
+    border-top-left-radius: .0rem ;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.card {
+    border: 0px solid rgba(0,0,0,.125);
+    border-radius: .0rem ;
+}
+
+.card .card-img, .card-img-top {
+    border-top-left-radius: 0rem ;
+    border-top-right-radius: 0rem;
+}
+
+.icons {
+    padding: 4%; 
+    font-size: 25px;
+}
+
+
+p{
+    font-size: small;
+}
+
+#lado{
+    margin-left: 300px;
+}
+
+.post{
     background: white;
-    width: 900px;
-    height: 750px;
+    width: 400px;
+    height: 700px;
     margin: auto;
 }
 
-#encabezado{
+.post-header{
     display: flex;
+    width: 500px;
+    height: 100px;
+    padding: 30px;
 }
 
-#post1 h3 {
-    padding-top: 10px;
-	width: 830px;
-	margin: 10px;
+.post-header img{
+    width: 30px;
+    height: 30px;
 }
 
-#post1 img{
-    width: 900px;
-    height: 500px;
+.post-header h6{
+    width: 250px;
+    margin: 0px;
 }
 
-#date{
-    width: 100px;
-	height: 100px;
+.post-header p{
+    width: 50px;
+	height: 50px;
+    padding-left: 10px;
 }
 
-#post2{
-    background: white;
-    width: 900px;
-    height: 750px;
-    margin: auto;
+.post-img img{
+    width: 350px;
+    height: 400px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
-#post2 h3 {
-    padding-top: 10px;
-	width: 830px;
-	margin: 10px;
+.people-likes{
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: left;
 }
 
-#post2 img{
-    width: 900px;
-    height: 500px;
+.texto{
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: left;
 }
 
-#post3{
-    background: white;
-    width: 900px;
-    height: 750px;
-    margin: auto;
+.post-body{
+    padding: 10px 10px 10px 10px;
 }
 
-#post3 h3 {
-    padding-top: 10px;
-	width: 830px;
-	margin: 10px;
-}
-
-#post3 img{
-    width: 900px;
-    height: 480px;
-}
-
-footer{
-    background: #c5c5c7;
-}
-
-#post1 p{
-    padding: 10px;
-}
-
-#post1 p{
-    padding: 10px;
-}
-
-#post3 p{
-    padding: 10px;
-}
-
-.mg-coment{
-    padding: 10px;
-}
