@@ -16,7 +16,7 @@
                 <span class="navbar-toggler-icon"></span>
               </button>
                 <form class="d-flex">
-                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" type="submit">Create a new post</button>
+                  <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal" type="submit">Create a new post</button>
                   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog">
                       <div class="modal-content">
@@ -28,11 +28,13 @@
                           <div class="form-group shadow-textarea">
                             <label for="exampleFormControlTextarea6"></label>
                             <textarea class="form-control z-depth-1" id="exampleFormControlTextarea6" rows="3" placeholder="New post...."></textarea>
+                            <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-camera-retro"></i></button>
+                            <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-lightbulb"></i></button>
                           </div>
                         </div>
                         <div class="modal-footer">
                           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                          <button type="button" class="btn btn-primary">Save changes</button>
+                          <button type="button" class="btn btn-success">Save changes</button>
                         </div>
                       </div>
                     </div>
@@ -55,13 +57,13 @@
 <!-- Nav feed-->
         <ul class="nav nav-tabs nav-feed" id="myTab" role="tablist">
           <li class="nav-item" role="presentation">
-              <a class="nav-link active nav-link-1" id="home-tab" data-bs-toggle="tab" href="#home" role="tab"
-                  aria-controls="home" aria-selected="true"><i class="bi bi-grid-3x3"></i> cuadrado</a>
+              <a class="nav-link active nav-link-1 btn btn-outline-secondary" id="home-tab" data-bs-toggle="tab" href="#home" role="tab"
+                  aria-controls="home" aria-selected="true"><i class="fa-solid fa-grip-lines"></i></a>
           </li>
 
           <li class="nav-item" role="presentation">
-              <a class="nav-link nav-link-2" id="profile-tab" data-bs-toggle="tab" href="#profile" role="tab"
-                  aria-controls="profile" aria-selected="false"><i class="bi bi-file-person"></i> uno </a>
+              <a class="nav-link nav-link-2 btn btn-outline-secondary" id="profile-tab" data-bs-toggle="tab" href="#profile" role="tab"
+                  aria-controls="profile" aria-selected="false"><i class="fa-solid fa-grip-lines-vertical"></i></a>
           </li>
         </ul>
 <!-- Fotos cuadro-->
