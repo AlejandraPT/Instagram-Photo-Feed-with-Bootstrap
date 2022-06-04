@@ -12,9 +12,6 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
               <a class="navbar-brand" href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFZ-XKrdXICX1TcN7BBBNNqGQKYlnxOp81KaJI-vG4oUtLvb-vww32ROoK_JsSBSITsA&usqp=CAU" alt="" width="150px"></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
                 <form class="d-flex">
                   <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal" type="submit">Create a new post</button>
                   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -41,7 +38,7 @@
                   </div>
                   <div>
                     <div class="btn-group">
-                      <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><i class="fa-solid fa-gear"></i></a>
+                      <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="navbarDarkDropdownMenuLink" role="button" aria-expanded="false"><i class="fa-solid fa-gear"></i></a>
                       <ul class="dropdown-menu dropdown-menu-end">
                         <li><button class="dropdown-item" type="button">Action</button></li>
                         <li><button class="dropdown-item" type="button">Another action</button></li>
@@ -55,15 +52,15 @@
             </div>
         </nav>
 <!-- Nav feed-->
-        <ul class="nav nav-tabs nav-feed" id="myTab" role="tablist">
+        <ul class="nav nav-pills mb-3 nav-feed" id="myTab" role="tablist">
           <li class="nav-item" role="presentation">
-              <a class="nav-link active nav-link-1 btn btn-outline-secondary" id="home-tab" data-bs-toggle="tab" href="#home" role="tab"
-                  aria-controls="home" aria-selected="true"><i class="fa-solid fa-grip-lines"></i></a>
+              <button class="nav-link active nav-link-1" id="home-tab" data-bs-toggle="tab" href="#home" role="tab"
+                  aria-controls="home" aria-selected="true"><i class="fa-solid fa-grip-lines"></i></button>
           </li>
 
           <li class="nav-item" role="presentation">
-              <a class="nav-link nav-link-2 btn btn-outline-secondary" id="profile-tab" data-bs-toggle="tab" href="#profile" role="tab"
-                  aria-controls="profile" aria-selected="false"><i class="fa-solid fa-grip-lines-vertical"></i></a>
+              <button class="nav-link nav-link-2" id="profile-tab" data-bs-toggle="tab" href="#profile" role="tab"
+                  aria-controls="profile" aria-selected="false"><i class="fa-solid fa-grip-lines-vertical"></i></button>
           </li>
         </ul>
 <!-- Fotos cuadro-->

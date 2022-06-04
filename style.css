@@ -2,6 +2,12 @@
     background-color: #fafafa;
 }
 
+ul>li>button.active{
+    background-color: slategray!important;
+}
+#navbarDarkDropdownMenuLink{
+    color: grey;
+}
 .nav-feed {
     border-bottom: none; 
     display:flex;
@@ -10,9 +16,12 @@
     padding-bottom: 15px;
 }
 
+.color{
+    background-color: grey !important;
+}
+
 .nav-link-1 {
     color: #495057;
-    background-color: #fafafa;
     border-color: gray #fff #fff;
     border-top-right-radius: .0rem;
     border-top-left-radius: .0rem;
@@ -22,7 +31,6 @@
 
 .nav-link-2 {
     color: #a2a8af;
-    background-color: #fafafa;
     border-color: #fff #fff #fff;
     border-top-right-radius: .0rem ;
     border-top-left-radius: .0rem ;
@@ -57,7 +65,7 @@ p{
 .post{
     background: white;
     width: 400px;
-    height: 700px;
+    height: 750px;
     margin: auto;
 }
 
@@ -85,10 +93,8 @@ p{
 }
 
 .post-img img{
-    width: 350px;
-    height: 400px;
-    padding-left: 10px;
-    padding-right: 10px;
+    width: 400px;
+    height: 450px;
 }
 
 .people-likes{
