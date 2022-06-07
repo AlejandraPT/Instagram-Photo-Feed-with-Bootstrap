@@ -3,7 +3,7 @@
 }
 
 ul>li>button.active{
-    background-color: slategray!important;
+    background-color: slategray !important;
 }
 #navbarDarkDropdownMenuLink{
     color: grey;
